@@ -1,0 +1,514 @@
+/*
+  Localizable.strings - ENGLISH (en)
+  CoFinance
+  Version 1.0.0
+  
+  Complete English localization file
+*/
+
+// MARK: - General
+"app_name" = "CoFinance";
+"welcome" = "Welcome";
+"welcome_back" = "Welcome back";
+"loading" = "Loading...";
+"save" = "Save";
+"cancel" = "Cancel";
+"delete" = "Delete";
+"edit" = "Edit";
+"done" = "Done";
+"close" = "Close";
+"add" = "Add";
+"search" = "Search";
+"filter" = "Filter";
+"sort" = "Sort";
+"share" = "Share";
+"export" = "Export";
+"import" = "Import";
+"settings" = "Settings";
+"about" = "About";
+"help" = "Help";
+"version" = "Version";
+"yes" = "Yes";
+"no" = "No";
+"ok" = "OK";
+"error" = "Error";
+"warning" = "Warning";
+"success" = "Success";
+"info" = "Information";
+"confirm" = "Confirm";
+"back" = "Back";
+"next" = "Next";
+"finish" = "Finish";
+"today" = "Today";
+"yesterday" = "Yesterday";
+"tomorrow" = "Tomorrow";
+"week" = "Week";
+"month" = "Month";
+"year" = "Year";
+"all" = "All";
+"none" = "None";
+"select" = "Select";
+"selected" = "Selected";
+"optional" = "Optional";
+"required" = "Required";
+"default" = "Default";
+"custom" = "Custom";
+
+// MARK: - Tab Bar
+"tab_home" = "Home";
+"tab_transactions" = "Transactions";
+"tab_subscriptions" = "Subscriptions";
+"tab_accounts" = "Accounts";
+"tab_analytics" = "Analytics";
+
+// MARK: - Home View
+"home_title" = "Home";
+"home_welcome" = "Hello, %@";
+"home_good_morning" = "Good morning";
+"home_good_afternoon" = "Good afternoon";
+"home_good_evening" = "Good evening";
+"home_balance" = "Total Balance";
+"home_available_balance" = "Available Balance";
+"home_income" = "Income";
+"home_expenses" = "Expenses";
+"home_savings" = "Savings";
+"home_goals" = "Goals";
+"home_recent_transactions" = "Recent Transactions";
+"home_view_all" = "View all";
+"home_no_transactions" = "No recent transactions";
+"home_spending_by_category" = "Spending by category";
+"home_quick_stats" = "Quick Stats";
+"home_monthly_summary" = "Monthly Summary";
+"home_weekly_summary" = "Weekly Summary";
+"home_financial_health" = "Financial Health";
+"home_quick_actions" = "Quick Actions";
+"home_net_worth" = "Net Worth";
+
+// MARK: - Transactions
+"transactions_title" = "Transactions";
+"transactions_add" = "New Transaction";
+"transactions_search" = "Search transactions";
+"transactions_filter_all" = "All";
+"transactions_filter_income" = "Income";
+"transactions_filter_expenses" = "Expenses";
+"transactions_filter_transfers" = "Transfers";
+"transactions_no_results" = "No transactions found";
+"transactions_delete_confirm" = "Are you sure you want to delete this transaction?";
+"transactions_deleted" = "Transaction deleted";
+"transactions_today" = "Today";
+"transactions_yesterday" = "Yesterday";
+"transactions_this_week" = "This week";
+"transactions_this_month" = "This month";
+"transactions_older" = "Older";
+"transactions_amount" = "Amount";
+"transactions_concept" = "Description";
+"transactions_category" = "Category";
+"transactions_date" = "Date";
+"transactions_notes" = "Notes";
+"transactions_type" = "Type";
+"transactions_account" = "Account";
+"transactions_edit_title" = "Edit Transaction";
+"transactions_detail_title" = "Transaction Detail";
+"transactions_recurring" = "Recurring";
+"transactions_duplicate" = "Duplicate";
+"transactions_receipt" = "Receipt";
+"transactions_location" = "Location";
+"transactions_tags" = "Tags";
+
+// MARK: - Add Transaction
+"add_transaction_title" = "New Transaction";
+"add_transaction_income" = "Income";
+"add_transaction_expense" = "Expense";
+"add_transaction_transfer" = "Transfer";
+"add_transaction_amount_placeholder" = "0.00";
+"add_transaction_concept_placeholder" = "Transaction description";
+"add_transaction_select_category" = "Select a category";
+"add_transaction_select_account" = "Select an account";
+"add_transaction_notes_placeholder" = "Additional notes (optional)";
+"add_transaction_success" = "Transaction added successfully";
+"add_transaction_error" = "Error adding transaction";
+"add_transaction_attach_receipt" = "Attach receipt";
+"add_transaction_add_location" = "Add location";
+"add_transaction_make_recurring" = "Make recurring";
+
+// MARK: - Categories
+"category_food" = "Food";
+"category_transport" = "Transportation";
+"category_entertainment" = "Entertainment";
+"category_health" = "Health";
+"category_education" = "Education";
+"category_shopping" = "Shopping";
+"category_utilities" = "Utilities";
+"category_rent" = "Rent";
+"category_insurance" = "Insurance";
+"category_savings" = "Savings";
+"category_investment" = "Investment";
+"category_travel" = "Travel";
+"category_clothing" = "Clothing";
+"category_technology" = "Technology";
+"category_pets" = "Pets";
+"category_gifts" = "Gifts";
+"category_donations" = "Donations";
+"category_transfer" = "Transfer";
+"category_salary" = "Salary";
+"category_freelance" = "Freelance";
+"category_business" = "Business";
+"category_other" = "Other";
+
+// MARK: - Subscriptions
+"subscriptions_title" = "Subscriptions";
+"subscriptions_add" = "New Subscription";
+"subscriptions_active" = "Active";
+"subscriptions_inactive" = "Inactive";
+"subscriptions_paused" = "Paused";
+"subscriptions_monthly_cost" = "Monthly cost";
+"subscriptions_annual_cost" = "Annual cost";
+"subscriptions_next_payment" = "Next payment";
+"subscriptions_billing_cycle" = "Billing cycle";
+"subscriptions_payment_method" = "Payment method";
+"subscriptions_cancel" = "Cancel subscription";
+"subscriptions_pause" = "Pause";
+"subscriptions_resume" = "Resume";
+"subscriptions_no_active" = "No active subscriptions";
+"subscriptions_total_active" = "%d active subscriptions";
+"subscriptions_reminder" = "Reminder";
+"subscriptions_reminder_days" = "Days before payment";
+"subscriptions_history" = "Payment history";
+"subscriptions_edit_title" = "Edit Subscription";
+"subscriptions_detail_title" = "Subscription Detail";
+
+// MARK: - Add Subscription
+"add_subscription_title" = "New Subscription";
+"add_subscription_name" = "Service name";
+"add_subscription_amount" = "Amount";
+"add_subscription_category" = "Category";
+"add_subscription_billing_cycle" = "Billing cycle";
+"add_subscription_next_payment" = "Next payment";
+"add_subscription_payment_method" = "Payment method";
+"add_subscription_notes" = "Notes";
+"add_subscription_success" = "Subscription added successfully";
+"add_subscription_set_reminder" = "Set reminder";
+
+// MARK: - Billing Cycles
+"billing_daily" = "Daily";
+"billing_weekly" = "Weekly";
+"billing_biweekly" = "Bi-weekly";
+"billing_monthly" = "Monthly";
+"billing_quarterly" = "Quarterly";
+"billing_semiannual" = "Semi-annual";
+"billing_annual" = "Annual";
+
+// MARK: - Accounts
+"accounts_title" = "Accounts";
+"accounts_add" = "New Account";
+"accounts_total_balance" = "Total balance";
+"accounts_type_debit" = "Debit";
+"accounts_type_credit" = "Credit";
+"accounts_type_savings" = "Savings";
+"accounts_type_investment" = "Investment";
+"accounts_type_cash" = "Cash";
+"accounts_available_credit" = "Available credit";
+"accounts_credit_limit" = "Credit limit";
+"accounts_credit_used" = "Credit used";
+"accounts_interest_rate" = "Interest rate";
+"accounts_bank" = "Bank";
+"accounts_last_updated" = "Last updated";
+"accounts_no_accounts" = "No accounts registered";
+"accounts_transfer_funds" = "Transfer funds";
+"accounts_update_balance" = "Update balance";
+"accounts_set_primary" = "Set as primary";
+"accounts_edit_title" = "Edit Account";
+"accounts_detail_title" = "Account Detail";
+"accounts_distribution" = "Fund distribution";
+
+// MARK: - Add Account
+"add_account_title" = "New Account";
+"add_account_name" = "Account name";
+"add_account_type" = "Account type";
+"add_account_balance" = "Initial balance";
+"add_account_bank" = "Bank or institution";
+"add_account_number" = "Last 4 digits";
+"add_account_currency" = "Currency";
+"add_account_credit_limit" = "Credit limit";
+"add_account_interest_rate" = "Interest rate (%)";
+"add_account_success" = "Account added successfully";
+"add_account_color" = "Color";
+"add_account_icon" = "Icon";
+
+// MARK: - Settings
+"settings_title" = "Settings";
+"settings_preferences" = "Preferences";
+"settings_security" = "Security";
+"settings_data" = "Data";
+"settings_notifications" = "Notifications";
+"settings_appearance" = "Appearance";
+"settings_currency" = "Currency";
+"settings_language" = "Language";
+"settings_theme" = "Theme";
+"settings_biometric_auth" = "Biometric authentication";
+"settings_face_id" = "Face ID";
+"settings_touch_id" = "Touch ID";
+"settings_passcode" = "Passcode";
+"settings_export_data" = "Export data";
+"settings_import_data" = "Import data";
+"settings_backup" = "Create backup";
+"settings_restore" = "Restore backup";
+"settings_delete_all" = "Delete all data";
+"settings_delete_confirm" = "Are you sure you want to delete all data? This action cannot be undone.";
+"settings_privacy_policy" = "Privacy policy";
+"settings_terms" = "Terms and conditions";
+"settings_rate_app" = "Rate app";
+"settings_contact" = "Contact";
+"settings_reset" = "Reset to defaults";
+"settings_auto_backup" = "Automatic backup";
+"settings_cloud_sync" = "Cloud sync";
+"settings_haptic_feedback" = "Haptic feedback";
+"settings_quick_add" = "Quick add";
+"settings_month_start" = "Month start";
+"settings_week_start" = "Week start";
+"settings_decimal_places" = "Decimal places";
+
+// MARK: - Themes
+"theme_system" = "System";
+"theme_light" = "Light";
+"theme_dark" = "Dark";
+"theme_liquid_glass" = "Liquid Glass";
+"theme_minimal" = "Minimal";
+"theme_neon" = "Neon";
+"theme_nature" = "Nature";
+"theme_ocean" = "Ocean";
+"theme_sunset" = "Sunset";
+"theme_custom" = "Custom";
+
+// MARK: - Analytics
+"analytics_title" = "Analytics";
+"analytics_overview" = "Overview";
+"analytics_income_vs_expenses" = "Income vs Expenses";
+"analytics_spending_by_category" = "Spending by category";
+"analytics_trends" = "Trends";
+"analytics_monthly_comparison" = "Monthly comparison";
+"analytics_yearly_summary" = "Yearly summary";
+"analytics_financial_health" = "Financial health";
+"analytics_savings_rate" = "Savings rate";
+"analytics_debt_ratio" = "Debt ratio";
+"analytics_net_worth_trend" = "Net worth trend";
+"analytics_budget_usage" = "Budget usage";
+"analytics_predictions" = "Predictions";
+"analytics_export_report" = "Export report";
+"analytics_custom_range" = "Custom range";
+
+// MARK: - Budgets
+"budgets_title" = "Budgets";
+"budgets_add" = "New Budget";
+"budgets_monthly" = "Monthly budget";
+"budgets_category" = "Category budget";
+"budgets_spent" = "Spent";
+"budgets_remaining" = "Remaining";
+"budgets_exceeded" = "Exceeded";
+"budgets_on_track" = "On track";
+"budgets_warning" = "Warning";
+"budgets_alert_threshold" = "Alert threshold";
+"budgets_rollover" = "Rollover surplus";
+"budgets_period" = "Period";
+"budgets_no_budgets" = "No budgets configured";
+"budgets_usage" = "Usage: %@%%";
+
+// MARK: - Goals
+"goals_title" = "Goals";
+"goals_add" = "New Goal";
+"goals_savings_goal" = "Savings goal";
+"goals_target_amount" = "Target amount";
+"goals_current_amount" = "Current amount";
+"goals_target_date" = "Target date";
+"goals_progress" = "Progress";
+"goals_completed" = "Completed";
+"goals_active" = "Active";
+"goals_paused" = "Paused";
+"goals_monthly_contribution" = "Monthly contribution";
+"goals_auto_save" = "Automatic saving";
+"goals_no_goals" = "No goals configured";
+"goals_days_remaining" = "%d days remaining";
+"goals_milestone_reached" = "Milestone reached";
+
+// MARK: - Notifications
+"notification_payment_reminder" = "Payment reminder";
+"notification_payment_due" = "%@ - Payment of %@";
+"notification_budget_alert" = "Budget alert";
+"notification_budget_exceeded" = "You've exceeded your %@ budget";
+"notification_budget_warning" = "You've reached %d%% of your %@ budget";
+"notification_goal_completed" = "Goal completed!";
+"notification_goal_milestone" = "You've reached %d%% of your goal!";
+"notification_bill_reminder" = "Bill reminder";
+"notification_low_balance" = "Low balance";
+"notification_unusual_spending" = "Unusual spending detected";
+"notification_weekly_summary" = "Weekly summary available";
+"notification_monthly_report" = "Your monthly report is ready";
+
+// MARK: - Export/Import
+"export_title" = "Export Data";
+"export_format" = "Format";
+"export_csv" = "CSV";
+"export_json" = "JSON";
+"export_pdf" = "PDF";
+"export_date_range" = "Date range";
+"export_all_data" = "All data";
+"export_success" = "Data exported successfully";
+"export_error" = "Error exporting data";
+"import_title" = "Import Data";
+"import_select_file" = "Select file";
+"import_preview" = "Preview";
+"import_mapping" = "Field mapping";
+"import_success" = "Data imported successfully";
+"import_error" = "Error importing data";
+
+// MARK: - Currencies
+"currency_mxn" = "Mexican Peso";
+"currency_usd" = "US Dollar";
+"currency_eur" = "Euro";
+"currency_gbp" = "British Pound";
+"currency_cad" = "Canadian Dollar";
+"currency_aud" = "Australian Dollar";
+"currency_jpy" = "Japanese Yen";
+"currency_cny" = "Chinese Yuan";
+"currency_chf" = "Swiss Franc";
+"currency_brl" = "Brazilian Real";
+"currency_converter" = "Currency converter";
+"currency_exchange_rate" = "Exchange rate";
+
+// MARK: - Errors
+"error_generic" = "An error occurred. Please try again.";
+"error_network" = "Connection error. Check your internet.";
+"error_authentication" = "Authentication error.";
+"error_data_load" = "Error loading data.";
+"error_data_save" = "Error saving data.";
+"error_invalid_amount" = "Please enter a valid amount.";
+"error_invalid_date" = "Please select a valid date.";
+"error_required_field" = "This field is required.";
+"error_insufficient_funds" = "Insufficient funds.";
+"error_duplicate_entry" = "This entry already exists.";
+"error_file_not_found" = "File not found.";
+"error_permission_denied" = "Permission denied.";
+
+// MARK: - Success Messages
+"success_transaction_added" = "Transaction added";
+"success_transaction_updated" = "Transaction updated";
+"success_transaction_deleted" = "Transaction deleted";
+"success_subscription_added" = "Subscription added";
+"success_subscription_updated" = "Subscription updated";
+"success_subscription_cancelled" = "Subscription cancelled";
+"success_account_added" = "Account added";
+"success_account_updated" = "Account updated";
+"success_transfer_completed" = "Transfer completed";
+"success_settings_saved" = "Settings saved";
+"success_backup_created" = "Backup created";
+"success_data_imported" = "Data imported";
+
+// MARK: - Empty States
+"empty_transactions" = "No transactions";
+"empty_transactions_message" = "Record your first transaction";
+"empty_subscriptions" = "No subscriptions";
+"empty_subscriptions_message" = "Add your subscription services";
+"empty_accounts" = "No accounts";
+"empty_accounts_message" = "Add your first bank account";
+"empty_search" = "No results";
+"empty_search_message" = "Try different search terms";
+"empty_notifications" = "No notifications";
+"empty_goals" = "No goals";
+"empty_budgets" = "No budgets";
+
+// MARK: - Actions
+"action_add_transaction" = "Add transaction";
+"action_add_subscription" = "Add subscription";
+"action_add_account" = "Add account";
+"action_add_budget" = "Add budget";
+"action_add_goal" = "Add goal";
+"action_transfer_funds" = "Transfer funds";
+"action_view_details" = "View details";
+"action_view_all" = "View all";
+"action_refresh" = "Refresh";
+"action_retry" = "Retry";
+"action_learn_more" = "Learn more";
+"action_get_started" = "Get started";
+"action_skip" = "Skip";
+"action_continue" = "Continue";
+
+// MARK: - Onboarding
+"onboarding_welcome_title" = "Welcome to CoFinance";
+"onboarding_welcome_subtitle" = "Your personal finance assistant";
+"onboarding_feature1_title" = "Track your expenses";
+"onboarding_feature1_description" = "Record and categorize all your transactions";
+"onboarding_feature2_title" = "Manage subscriptions";
+"onboarding_feature2_description" = "Never forget a recurring payment";
+"onboarding_feature3_title" = "Reach your goals";
+"onboarding_feature3_description" = "Set objectives and save smartly";
+"onboarding_setup_title" = "Initial setup";
+"onboarding_setup_currency" = "Select your currency";
+"onboarding_setup_account" = "Add your first account";
+"onboarding_complete_title" = "All set!";
+"onboarding_complete_subtitle" = "Start managing your finances";
+
+// MARK: - Accessibility
+"accessibility_balance_hidden" = "Balance hidden";
+"accessibility_balance_visible" = "Balance visible";
+"accessibility_income_amount" = "Income amount";
+"accessibility_expense_amount" = "Expense amount";
+"accessibility_add_button" = "Add button";
+"accessibility_settings_button" = "Settings button";
+"accessibility_delete_button" = "Delete button";
+"accessibility_edit_button" = "Edit button";
+"accessibility_close_button" = "Close button";
+"accessibility_back_button" = "Back button";
+"accessibility_search_field" = "Search field";
+"accessibility_tab_bar" = "Tab bar";
+"accessibility_navigation_bar" = "Navigation bar";
+
+// MARK: - Widget
+"widget_title" = "CoFinance Balance";
+"widget_description" = "View your current balance and recent transactions";
+"widget_no_data" = "Open the app to view data";
+"widget_last_updated" = "Updated %@";
+
+// MARK: - Quick Actions
+"quick_action_add_expense" = "Add expense";
+"quick_action_add_income" = "Add income";
+"quick_action_view_balance" = "View balance";
+"quick_action_view_subscriptions" = "View subscriptions";
+
+// MARK: - Date Formats
+"date_format_short" = "MM/dd/yy";
+"date_format_medium" = "MMM dd, yyyy";
+"date_format_long" = "MMMM dd, yyyy";
+"date_format_full" = "EEEE, MMMM dd, yyyy";
+"time_format_short" = "h:mm a";
+"time_format_long" = "h:mm:ss a";
+"date_today_at" = "Today at %@";
+"date_yesterday_at" = "Yesterday at %@";
+"date_tomorrow_at" = "Tomorrow at %@";
+
+// MARK: - Numbers
+"number_decimal_separator" = ".";
+"number_thousands_separator" = ",";
+"number_currency_symbol" = "$";
+"number_percent_symbol" = "%";
+
+// MARK: - Developer
+"developer_mode" = "Development Mode";
+"developer_description" = "Disable premium capabilities for development";
+"push_notifications_dev" = "Push Notifications (Dev)";
+"icloud_dev" = "iCloud (Dev)";
+"current_status" = "Current Status:";
+"restart_app" = "Restart App";
+
+// MARK: - Capability states
+"push_notifications_unavailable" = "Push Notifications not available with Personal account";
+"icloud_unavailable" = "iCloud not available with Personal account";
+"capability_active" = "Active";
+"capability_inactive" = "Inactive";
+
+// MARK: - Reminder notifications
+"subscription_reminder_title" = "💰 Subscription Payment";
+"subscription_reminder_body" = "%@ expires tomorrow for %@";
+"budget_exceeded_title" = "💸 Budget Exceeded";
+"budget_exceeded_body" = "You have exceeded the budget for %@";
+"budget_warning_title" = "⚠️ Budget at %d%%";
+"budget_warning_body" = "You have spent %d%% of the budget on %@";
